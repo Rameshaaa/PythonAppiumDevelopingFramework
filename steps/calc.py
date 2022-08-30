@@ -4,7 +4,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from behave import *
 from appium import webdriver
 from pageObjects.objectRepo import objectRepo
-from utils.baseFunctions import base
+from utils.MobileFunctions import base
 
 
 class settings(base):
@@ -20,9 +20,9 @@ class settings(base):
         pageobjects = objectRepo()
         log = base.getlogger(self)
         time.sleep(3)
+        base.clickElement(self, pageobjects.network_security)
         log.info("Element clicked")
-        base.clickElement(self, 'xpath', pageobjects.networksecuirty)
-        time.sleep(2)
+        time.sleep(10)
 
     @then('look for other options')
     def app_close(self):
