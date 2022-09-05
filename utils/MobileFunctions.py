@@ -2,27 +2,28 @@ import inspect
 import logging
 
 from appium import webdriver
-import time
 from appium.webdriver.common.appiumby import AppiumBy
-from appium.webdriver.webdriver import WebDriver
-from selenium.common import TimeoutException
 from selenium.webdriver import ActionChains
-from selenium.webdriver.support.wait import WebDriverWait
+from appium.webdriver.common.touch_action import TouchAction
+from appium.webdriver.webelement import WebElement
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
-
-
+from selenium.webdriver.support.wait import WebDriverWait
+import configparser
 class base:
 
-
-
     def getAndroidEmulator(self):
+        config = configparser.ConfigParser()
+        config.read('/Users/bosch/Desktop/PythonTestingFramework/features/properties.ini')
+        data = config['AndroidEmulator']['platformName']
+
+        
         caps = {
-            "platformName": "Android",
-            "platformVersion": "11.0",
-            "deviceName": "Pixel 5 Emulator",
-            "appPackage": "com.android.settings",
-            "appActivity": "com.android.settings.Settings"
+            "platformName": config['AndroidEmulator']['platformName'],
+            "platformVersion": config['AndroidEmulator']['platformVersion'],
+            "deviceName": config['AndroidEmulator']['deviceName'],
+            "appPackage": config['AndroidEmulator']['appPackage'],
+            "appActivity": config['AndroidEmulator']['appActivity'],
         }
 
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
@@ -37,8 +38,6 @@ class base:
         logger.addHandler(filehandler)
         logger.setLevel(logging.DEBUG)
         return logger
-
-
 
     def clickElement(self, locatorType, locatorValue):
 
@@ -78,7 +77,6 @@ class base:
 
         return ele
 
-
     def presence_of_element_located(self, locatorType, locatorValue):
 
         locatorType = locatorType.lower()
@@ -94,7 +92,8 @@ class base:
                 return ele
             elif locatorType == "accessibility_id":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.ACCESSIBILITY_ID, locatorValue))
+                ele = wait.until(
+                    expected_conditions.presence_of_element_located(AppiumBy.ACCESSIBILITY_ID, locatorValue))
                 return ele
             elif locatorType == "css_selector":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
@@ -318,77 +317,30 @@ class base:
         except:
             raise Exception
 
-    def listElements(self, locatorType, text):
+    def quit(self):
+        self.driver.close()
+
+
+    def listElements_iterator(self, locatorType, text):
         try:
             ele = None
             ele = self.driver.find_elements(locatorType)
 
             for el in ele:
-                print(el.text)
+                #print(el.text)
                 if el.text == text:
                     el.click()
                 else:
                     raise Exception
             return ele
         except:
-            print("Issue with Iterator")
+            raise Exception
 
-    def forceClick(self, locatorType):
-        ele = None
+    def scrollelemnet(self, source_ele, target_ele):
         try:
-            ele = self.driver.find_element(locatorType)
-            action = ActionChains(self.driver)
-            action.click(on_element=ele)
-            action.perform()
+            action =TouchAction(self.driver)
+            action.press(source_ele).move_to(target_ele).release().perform()
         except:
             raise Exception
 
-    def click_and_hold(self, locatorType):
-        ele = None
-        try:
-            ele = self.driver.find_element(locatorType)
-            action = ActionChains(self.driver)
-            action.click_and_hold(on_element=ele)
-            action.perform()
-        except:
-            raise Exception
 
-    def rightClick(self, locatorType):
-        ele = None
-        try:
-            ele = self.driver.find_element(locatorType)
-            action = ActionChains(self.driver)
-            action.context_click(on_element=ele)
-            action.perform()
-        except:
-            raise Exception
-
-    def doubleClick(self, locatorType):
-        ele = None
-        try:
-            ele = self.driver.find_element(locatorType)
-            action = ActionChains(self.driver)
-            action.double_click(on_element=ele)
-            action.perform()
-        except:
-            raise Exception
-
-    def doubleClick(self, source_ele, target_ele):
-
-        try:
-            source_element = self.driver.find_element(source_ele)
-            target_element = self.driver.find_element(target_ele)
-            action = ActionChains(self.driver)
-            action.drag_and_drop(source_element, target_element)
-            action.perform()
-        except:
-            raise Exception
-
-    def doubleClick(self, locatorType):
-        ele = None
-        try:
-            ele = self.driver.find_element(locatorType)
-            action = ActionChains(self.driver)
-            action.move_to_element(ele).click().perform()
-        except:
-            raise Exception
