@@ -3,7 +3,7 @@ from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 from behave import *
 from appium import webdriver
-from pageObjects.objectRepo import objectRepo
+from pageObjects.objectRepo import objectRepos
 from utils.MobileFunctions import base
 
 

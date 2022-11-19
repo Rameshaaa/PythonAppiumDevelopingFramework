@@ -10,21 +10,34 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 import configparser
+
+
 class base:
+
+    def __init__(self):
+        self.driver = None
 
     def getAndroidEmulator(self):
         config = configparser.ConfigParser()
         config.read('/Users/bosch/Desktop/PythonTestingFramework/features/properties.ini')
-        data = config['AndroidEmulator']['platformName']
+        #data = config['AndroidEmulator']['platformName']
 
-        
+        # caps = {
+        #     "platformName": config['AndroidEmulator']['platformName'],
+        #     "platformVersion": config['AndroidEmulator']['platformVersion'],
+        #     "deviceName": config['AndroidEmulator']['deviceName'],
+        #     "appPackage": config['AndroidEmulator']['appPackage'],
+        #     "appActivity": config['AndroidEmulator']['appActivity'],
+        #     "udid": config['AndroidEmulator']['udid']
+        # }
         caps = {
-            "platformName": config['AndroidEmulator']['platformName'],
-            "platformVersion": config['AndroidEmulator']['platformVersion'],
-            "deviceName": config['AndroidEmulator']['deviceName'],
-            "appPackage": config['AndroidEmulator']['appPackage'],
-            "appActivity": config['AndroidEmulator']['appActivity'],
-        }
+             "platformName": "Android",
+             "platformVersion": "12.0",
+             "deviceName": "OnePlus 8 5G",
+             "appPackage": "com.pta.nevro.nevroptaandroid",
+             "appActivity": "com.pta.nevro.nevroptaandroid.ui.common.SplashActivity",
+             "udid": "f4306c03"
+         }
 
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
 
@@ -77,6 +90,44 @@ class base:
 
         return ele
 
+    def enterText(self, locatorType, locatorValue, value: str):
+
+        locatorType = locatorType.lower()
+        ele = None
+
+        if locatorType == "xpath":
+            ele = self.driver.find_element(AppiumBy.XPATH, locatorValue)
+            ele.send_keys(value)
+            return ele
+        elif locatorType == "id":
+            ele = self.driver.find_element(AppiumBy.ID, locatorValue)
+            ele.send_keys(value)
+            return ele
+        elif locatorType == "accessibility_id":
+            ele = self.driver.find_element(AppiumBy.ACCESSIBILITY_ID, locatorValue)
+            ele.send_keys(value)
+            return ele
+        elif locatorType == "css_selector":
+            ele = self.driver.find_element(AppiumBy.CSS_SELECTOR, locatorValue)
+            ele.send_keys(value)
+            return ele
+        elif locatorType == "className":
+            ele = self.driver.find_element(AppiumBy.CLASS_NAME, locatorValue)
+            ele.send_keys(value)
+            return ele
+        elif locatorType == "name":
+            ele = self.driver.find_element(AppiumBy.NAME, locatorValue)
+            ele.send_keys(value)
+            return ele
+        elif locatorType == "link_text":
+            ele = self.driver.find_element(AppiumBy.LINK_TEXT, locatorValue)
+            ele.send_keys(value)
+            return ele
+        else:
+            print(locatorType + " " + "not found")
+
+        return ele
+
     def presence_of_element_located(self, locatorType, locatorValue):
 
         locatorType = locatorType.lower()
@@ -88,7 +139,7 @@ class base:
                 return ele
             elif locatorType == "id":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.id, locatorValue))
+                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.ID, locatorValue))
                 return ele
             elif locatorType == "accessibility_id":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
@@ -320,14 +371,13 @@ class base:
     def quit(self):
         self.driver.close()
 
-
     def listElements_iterator(self, locatorType, text):
         try:
             ele = None
             ele = self.driver.find_elements(locatorType)
 
             for el in ele:
-                #print(el.text)
+                # print(el.text)
                 if el.text == text:
                     el.click()
                 else:
@@ -338,9 +388,7 @@ class base:
 
     def scrollelemnet(self, source_ele, target_ele):
         try:
-            action =TouchAction(self.driver)
+            action = TouchAction(self.driver)
             action.press(source_ele).move_to(target_ele).release().perform()
         except:
             raise Exception
-
-
