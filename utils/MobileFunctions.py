@@ -135,32 +135,32 @@ class base:
         try:
             if locatorType == "xpath":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.XPATH, locatorValue))
+                ele = wait.until(expected_conditions.presence_of_element_located((AppiumBy.XPATH, locatorValue)))
                 return ele
             elif locatorType == "id":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.ID, locatorValue))
+                ele = wait.until(expected_conditions.presence_of_element_located((AppiumBy.ID, locatorValue)))
                 return ele
             elif locatorType == "accessibility_id":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
                 ele = wait.until(
-                    expected_conditions.presence_of_element_located(AppiumBy.ACCESSIBILITY_ID, locatorValue))
+                    expected_conditions.presence_of_element_located((AppiumBy.ACCESSIBILITY_ID, locatorValue)))
                 return ele
             elif locatorType == "css_selector":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.CSS_SELECTOR, locatorValue))
+                ele = wait.until(expected_conditions.presence_of_element_located((AppiumBy.CSS_SELECTOR, locatorValue)))
                 return ele
             elif locatorType == "className":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.CLASS_NAME, locatorValue))
+                ele = wait.until(expected_conditions.presence_of_element_located((AppiumBy.CLASS_NAME, locatorValue)))
                 return ele
             elif locatorType == "name":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.NAME, locatorValue))
+                ele = wait.until(expected_conditions.presence_of_element_located((AppiumBy.NAME, locatorValue)))
                 return ele
             elif locatorType == "link_text":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.presence_of_element_located(AppiumBy.LINK_TEXT, locatorValue))
+                ele = wait.until(expected_conditions.presence_of_element_located((AppiumBy.LINK_TEXT, locatorValue)))
                 return ele
             else:
                 print(locatorType + " " + "not found")
@@ -176,32 +176,32 @@ class base:
         try:
             if locatorType == "xpath":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.element_to_be_clickable(AppiumBy.XPATH, locatorValue))
+                ele = wait.until(expected_conditions.element_to_be_clickable((AppiumBy.XPATH, locatorValue)))
                 return ele
             elif locatorType == "id":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.element_to_be_clickable(AppiumBy.id, locatorValue))
+                ele = wait.until(expected_conditions.element_to_be_clickable((AppiumBy.id, locatorValue)))
                 return ele
             elif locatorType == "accessibility_id":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
                 ele = wait.until(
-                    expected_conditions.element_to_be_clickable(AppiumBy.ACCESSIBILITY_ID, locatorValue))
+                    expected_conditions.element_to_be_clickable((AppiumBy.ACCESSIBILITY_ID, locatorValue)))
                 return ele
             elif locatorType == "css_selector":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.element_to_be_clickable(AppiumBy.CSS_SELECTOR, locatorValue))
+                ele = wait.until(expected_conditions.element_to_be_clickable((AppiumBy.CSS_SELECTOR, locatorValue)))
                 return ele
             elif locatorType == "className":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.element_to_be_clickable(AppiumBy.CLASS_NAME, locatorValue))
+                ele = wait.until(expected_conditions.element_to_be_clickable((AppiumBy.CLASS_NAME, locatorValue)))
                 return ele
             elif locatorType == "name":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.element_to_be_clickable(AppiumBy.NAME, locatorValue))
+                ele = wait.until(expected_conditions.element_to_be_clickable((AppiumBy.NAME, locatorValue)))
                 return ele
             elif locatorType == "link_text":
                 wait = WebDriverWait(self.driver, 25, poll_frequency=2)
-                ele = wait.until(expected_conditions.element_to_be_clickable(AppiumBy.LINK_TEXT, locatorValue))
+                ele = wait.until(expected_conditions.element_to_be_clickable((AppiumBy.LINK_TEXT, locatorValue)))
                 return ele
             else:
                 print(locatorType + " " + "not found")
