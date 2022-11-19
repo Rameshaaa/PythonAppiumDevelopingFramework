@@ -6,8 +6,8 @@ from utils.MobileFunctions import base
 
 class env(base):
 
-    def before_scenario(self, scenario):
-        base.getAndroidEmulator()
+    # def before_scenario(self, scenario):
+    #     base.getAndroidEmulator()
 
     def after_feature(self, scenario):
         base.quit()
