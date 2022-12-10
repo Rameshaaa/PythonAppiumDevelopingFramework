@@ -57,3 +57,354 @@
 2022-11-19 11:26:16,233 :INFO : step_impl :Emulator Launched
 2022-11-19 11:26:23,840 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
 2022-11-19 11:26:23,840 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 11:43:27,817 :INFO : step_impl :Emulator Launched
+2022-11-19 11:46:54,499 :INFO : step_impl :Emulator Launched
+2022-11-19 11:46:59,993 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 11:46:59,993 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 11:47:00,749 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 11:47:00,749 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 11:47:01,642 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 11:47:01,642 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 11:49:50,955 :INFO : step_impl :Emulator Launched
+2022-11-19 11:49:56,176 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 11:49:56,176 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 11:49:56,929 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 11:49:56,929 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 11:49:57,800 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 11:49:57,800 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 11:49:58,801 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 11:49:58,801 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 11:49:59,867 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 11:49:59,867 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 11:49:59,908 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 11:49:59,908 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 11:50:00,864 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 11:50:00,864 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 11:50:02,031 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 11:50:02,031 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 11:50:02,717 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 11:50:02,717 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:08:41,236 :INFO : step_impl :Emulator Launched
+2022-11-19 12:08:46,421 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:08:46,421 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:08:48,780 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:08:48,780 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:08:49,625 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:08:49,625 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:08:50,593 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:08:50,593 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:08:51,200 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:08:51,200 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:08:51,232 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:08:51,232 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:08:52,204 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:08:52,204 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:08:53,367 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:08:53,367 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:08:54,051 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:08:54,051 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:14:54,872 :INFO : step_impl :Emulator Launched
+2022-11-19 12:15:00,096 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:15:00,096 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:15:00,856 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:15:00,856 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:15:03,185 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:15:03,185 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:15:05,586 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:15:05,586 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:15:06,200 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:15:06,200 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:15:06,235 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:15:06,235 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:15:06,511 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:15:06,511 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:15:07,279 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:15:07,279 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:15:07,955 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:15:07,955 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:15:07,972 :INFO : launch_Settings_app :Emulator Launched
+2022-11-19 12:17:03,869 :INFO : step_impl :Emulator Launched
+2022-11-19 12:17:09,160 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:17:09,160 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:17:09,928 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:17:09,928 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:17:10,804 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:17:10,804 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:17:13,204 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:17:13,204 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:17:13,813 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:17:13,813 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:17:13,851 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:17:13,851 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:17:14,762 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:17:14,762 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:17:15,439 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:17:15,439 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:17:16,105 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:17:16,105 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:17:16,133 :INFO : launch_Settings_app :Emulator Launched
+2022-11-19 12:19:25,049 :INFO : step_impl :Emulator Launched
+2022-11-19 12:19:30,270 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:19:30,270 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:19:31,039 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:19:31,039 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:19:31,928 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:19:31,928 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:19:32,894 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:19:32,894 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:19:33,494 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:19:33,494 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:19:33,528 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:19:33,528 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:19:34,452 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:19:34,452 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:19:35,118 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:19:35,118 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:19:35,785 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:19:35,785 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:19:35,815 :INFO : launch_Settings_app :Emulator Launched
+2022-11-19 12:21:15,210 :INFO : step_impl :Emulator Launched
+2022-11-19 12:21:20,432 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:21:20,432 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:21:21,191 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:21:21,191 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:21:22,082 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:21:22,082 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:21:23,050 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:21:23,050 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:21:23,649 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:21:23,649 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:21:23,683 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:21:23,683 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:21:23,911 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:21:23,911 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:21:25,311 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:21:25,311 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:21:25,974 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:21:25,974 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:21:53,366 :INFO : step_impl :Emulator Launched
+2022-11-19 12:21:58,579 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:21:58,579 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:21:59,912 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:21:59,912 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:22:02,260 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:22:02,260 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:22:03,262 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:22:03,262 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:22:03,851 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:22:03,851 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:22:03,899 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:22:03,899 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:22:04,849 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:22:04,849 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:22:06,024 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:22:06,024 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:22:06,681 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:22:06,681 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:22:06,708 :INFO : launch_Settings_app :Emulator Launched
+2022-11-19 12:24:30,028 :INFO : step_impl :Emulator Launched
+2022-11-19 12:24:35,228 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:24:35,228 :INFO : step_impl :android:id/button1 is verified
+2022-11-19 12:24:35,997 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:24:35,997 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-11-19 12:24:36,873 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:24:36,873 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-11-19 12:24:37,839 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:24:37,839 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-11-19 12:24:38,440 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:24:38,440 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-11-19 12:24:38,484 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:24:38,484 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-11-19 12:24:38,706 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:24:38,706 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-11-19 12:24:39,581 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:24:39,581 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-11-19 12:24:40,224 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:24:40,224 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-11-19 12:24:40,265 :INFO : launch_Settings_app :Emulator Launched
+2022-12-08 14:35:21,207 :INFO : launch_Settings_app :Emulator Launched
+2022-12-08 14:43:27,938 :INFO : step_impl :Emulator Launched
+2022-12-08 14:43:41,940 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 14:43:41,940 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 14:43:42,723 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 14:43:42,723 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 14:43:49,113 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 14:43:49,113 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 14:43:51,469 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 14:43:51,469 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 14:43:52,067 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 14:43:52,067 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 14:43:52,110 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 14:43:52,110 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 14:43:53,111 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 14:43:53,111 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 14:43:53,759 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-12-08 14:43:53,759 :INFO : step_impl ://android.widget.EditText[@content-desc='F7'] is verified
+2022-12-08 14:44:00,641 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 14:44:00,641 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 14:53:16,562 :INFO : step_impl :Emulator Launched
+2022-12-08 14:53:30,379 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 14:53:30,379 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 14:53:31,136 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 14:53:31,136 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 14:53:37,541 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 14:53:37,541 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 14:53:39,956 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 14:53:39,956 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 14:53:40,565 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 14:53:40,565 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 14:53:40,593 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 14:53:40,593 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 15:14:31,563 :INFO : step_impl :Emulator Launched
+2022-12-08 15:14:36,725 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 15:14:36,725 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 15:14:37,467 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 15:14:37,467 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 15:14:39,741 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 15:14:39,741 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 15:14:42,131 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 15:14:42,131 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 15:14:42,158 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 15:14:42,158 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 15:14:42,760 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 15:14:42,760 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 15:23:03,202 :INFO : step_impl :Emulator Launched
+2022-12-08 15:23:08,341 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 15:23:08,341 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 15:23:09,131 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 15:23:09,131 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 15:23:11,437 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 15:23:11,437 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 15:23:13,847 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 15:23:13,847 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B65 is verified
+2022-12-08 15:23:13,938 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 15:23:13,938 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logois verified
+2022-12-08 15:23:14,464 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 15:23:14,464 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/nevro_logo is verified
+2022-12-08 16:37:15,935 :INFO : step_impl :Emulator Launched
+2022-12-08 16:37:21,095 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:37:21,095 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:37:21,864 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:37:21,864 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:37:24,616 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:37:24,616 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:38:45,912 :INFO : step_impl :Emulator Launched
+2022-12-08 16:38:59,680 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:38:59,680 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:39:00,526 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:39:00,526 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:39:07,432 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:39:07,432 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:39:57,823 :INFO : step_impl :Emulator Launched
+2022-12-08 16:40:11,666 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:40:11,666 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:40:12,444 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:40:12,444 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:40:18,840 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:40:18,840 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:40:21,962 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 16:40:21,962 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 16:40:23,140 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 16:40:23,140 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 16:40:23,826 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 16:40:23,826 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 16:41:54,526 :INFO : step_impl :Emulator Launched
+2022-12-08 16:42:08,319 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:42:08,319 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:42:09,105 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:42:09,105 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:42:15,508 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:42:15,508 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:44:57,502 :INFO : step_impl :Emulator Launched
+2022-12-08 16:45:11,281 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:45:11,281 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:45:12,061 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:45:12,061 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:45:18,943 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:45:18,943 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:45:21,958 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 16:45:21,958 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 16:45:23,146 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 16:45:23,146 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 16:45:45,960 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 16:45:45,960 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 16:45:46,615 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 16:45:46,615 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 16:48:32,709 :INFO : step_impl :Emulator Launched
+2022-12-08 16:48:46,585 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:48:46,585 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 16:48:47,365 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:48:47,365 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 16:48:53,797 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:48:53,797 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 16:48:56,817 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 16:48:56,817 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 16:48:57,509 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 16:48:57,509 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 16:48:58,183 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 16:48:58,183 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 16:48:58,882 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 16:48:58,882 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 17:48:24,038 :INFO : step_impl :Emulator Launched
+2022-12-08 17:48:37,979 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 17:48:37,979 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 17:48:38,765 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 17:48:38,765 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 17:48:41,552 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 17:48:41,552 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 17:48:43,901 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 17:48:43,901 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 17:48:44,781 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 17:48:44,781 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 17:48:45,493 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 17:48:45,493 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 17:48:46,662 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 17:48:46,662 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 17:51:55,602 :INFO : step_impl :Emulator Launched
+2022-12-08 17:52:00,736 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 17:52:00,736 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 17:52:01,495 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 17:52:01,495 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 17:52:03,768 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 17:52:03,768 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 17:52:06,097 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 17:52:06,097 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 17:52:06,878 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 17:52:06,878 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 17:52:07,535 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 17:52:07,535 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 17:52:08,245 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 17:52:08,245 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 18:08:45,706 :INFO : step_impl :Emulator Launched
+2022-12-08 18:08:50,855 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 18:08:50,855 :INFO : step_impl :android:id/button1 is verified
+2022-12-08 18:08:51,621 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 18:08:51,621 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-08 18:08:54,405 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 18:08:54,405 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-08 18:08:56,738 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 18:08:56,738 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-08 18:08:58,120 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 18:08:58,120 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-08 18:08:59,310 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 18:08:59,310 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-08 18:09:00,571 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-08 18:09:00,571 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-09 11:17:31,964 :INFO : step_impl :Emulator Launched
+2022-12-09 11:17:51,914 :INFO : step_impl :android:id/button1 is verified
+2022-12-09 11:17:51,914 :INFO : step_impl :android:id/button1 is verified
+2022-12-09 11:19:53,385 :INFO : step_impl :Emulator Launched
+2022-12-09 11:20:08,887 :INFO : step_impl :android:id/button1 is verified
+2022-12-09 11:20:08,887 :INFO : step_impl :android:id/button1 is verified
+2022-12-09 11:20:09,610 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-09 11:20:09,610 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/skipBtn is verified
+2022-12-09 11:20:15,988 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-09 11:20:15,988 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B1 is verified
+2022-12-09 11:20:18,333 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-09 11:20:18,333 :INFO : step_impl ://android.widget.EditText[@content-desc='F3'] is verified
+2022-12-09 11:20:19,594 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-09 11:20:19,594 :INFO : step_impl ://android.widget.EditText[@content-desc='F4'] is verified
+2022-12-09 11:20:51,326 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-09 11:20:51,326 :INFO : step_impl ://android.widget.EditText[@content-desc='F5'] is verified
+2022-12-09 11:20:51,980 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified
+2022-12-09 11:20:51,980 :INFO : step_impl :com.pta.nevro.nevroptaandroid:id/B64 is verified

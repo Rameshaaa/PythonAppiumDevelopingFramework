@@ -14,7 +14,7 @@ class settings(base):
 
     @given('Launch the Calculator App')
     def launch_Settings_app(self):
-        #base.getAndroidEmulator(self)
+        base.getAndroidEmulator(self)
         log = base.getlogger(self)
         log.info("Emulator Launched")
 

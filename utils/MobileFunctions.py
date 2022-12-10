@@ -10,7 +10,8 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 import configparser
-
+import random
+import string
 
 class base:
 
